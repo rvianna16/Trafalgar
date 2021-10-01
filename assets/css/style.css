@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #458ff6;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-radius: 55px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 40px;
+}
+
+.btn-primary--bg {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  background: #fff;
+}
+
+.square {
+  position: absolute;
+  top: 200px;
+  width: 82px;
+  height: 115px;
+  background: url(../img/element.png);
+}
+
+/* header */
+#header {
+  padding: 20px 0;
+}
+
+#header .header-title {
+  max-width: 350px;
+}
+
+#header .header-text {
+  max-width: 426px;
+}
+
+#header .btn-primary:hover {
+  transition: 0.5s;
+  background-color: #4482da;
+}
+
+/* section */
+
+.section-title::after {
+  content: "";
+  display: block;
+  margin: 25px 0;
+  width: 55px;
+  height: 2px;
+  background: #000;
+}
+
+/* services section */
+
+
+
+#services .section-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#services .section-text {
+  max-width: 960px;
+  
+}
+
+.blop {
+  width: 100%;
+  height: 900px;
+  background: url(../img/blop.png) no-repeat;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#services .cards {
+  background: url(../img/element.png) no-repeat;
+  background-position: 95%;
+}
+
+#services .card {
+  border: none;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+  padding: 37px;
+  width: 350px;
+}
+
+#services .card-icon {
+  width: 70px;
+  height: 70px;
+}
+
+/* providers section */
+
+#providers .section-title {
+  max-width: 350px;
+}
+
+#providers .section-text {
+  max-width: 400px;
+}
+
+/* apps section */
+
+#apps .section-title {
+  max-width: 260px;
+}
+
+#apps .section-text {
+  max-width: 420px;
+}
+
+@media screen and (max-width: 768px) {
+  #header .header-title,
+  #header .header-text {
+    max-width: 100%;
+  }
+
+  .section-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+}
