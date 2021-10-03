@@ -12,9 +12,9 @@
 
 <body>
   <div class="square"></div>
-  <header id="header">    
+  <header id="header">
     <nav class="navbar navbar-expand-lg navbar-light container">
-      
+
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="assets/img/logo.svg" alt="Trafalgar" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -62,7 +62,7 @@
 
   <main class="container">
     <section id="services" class="text-center d-flex flex-column align-items-center py-3 py-md-5">
-      <h2 class="section-title fs-2 fw-bold pt-5">Our services</h2>
+      <h2 class="section-title fs-2 fw-bold pt-5 d-flex flex-column align-items-center">Our services</h2>
       <p class="section-text fs-5 opacity-50">
         We provide to you the best choiches for you. Adjust it to your health
         needs and make sure your undergo treatment with our highly qualified
@@ -140,9 +140,9 @@
           <a href="#" class="btn btn-primary btn-primary--bg mt-3">Learn more</a>
         </div>
       </div>
-    </section>  
-    
-    <section id="apps" class="py-5">      
+    </section>
+
+    <section id="apps" class="py-5">
       <div class="row gap-5 align-items-center text-md-start text-center">
         <div class="col-12 col-md d-flex flex-column align-items-center">
           <div class="d-flex flex-column align-items-center align-items-md-start">
@@ -155,7 +155,7 @@
             </p>
             <a href="#" class="btn btn-primary btn-primary--bg mt-3">Learn more</a>
           </div>
-         
+
         </div>
 
         <div class="col-12 col-md d-flex justify-content-center">
@@ -164,7 +164,93 @@
       </div>
     </section>
 
-    <section id="testimonials" class="py-5">a</section>
+    <section id="testimonials" class="py-md-5 py-0">
+      <div id="carouselIndicators" class="carousel slide my-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner text-light">
+          <div class="carousel-item active">
+            <h2 class="section-title fs-2 fw-bold d-block d-sm-flex flex-column align-items-center">What our customer are saying</h2>
+            <div class="d-md-flex d-block align-items-center justify-content-between gap-5">
+              <div class="d-flex gap-4 align-items-center">
+                <img src="assets/img/edward.png" alt="Edward Newgate">
+                <div>
+                  <h4 class="fw-bold">Edward Newgate</h4>
+                  <p>Founder Circle</p>
+                </div>
+              </div>
+
+              <div>
+                <p class="fs-5 pt-3 pt-md-0" style="max-width: 430px">
+                  “Our dedicated patient engagement app and
+                  web portal allow you to access information instantaneously (no tedeous form, long calls,
+                  or administrative hassle) and securely”
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <h2 class="section-title fs-2 fw-bold d-block d-sm-flex flex-column align-items-center">What our customer are saying</h2>
+            <div class="d-md-flex d-block align-items-center justify-content-between gap-5">
+              <div class="d-flex gap-4 align-items-center">
+                <img src="assets/img/edward.png" alt="Edward Newgate">
+                <div>
+                  <h4 class="fw-bold">Edward Newgate</h4>
+                  <p>Founder Circle</p>
+                </div>
+              </div>
+
+              <div>
+                <p class="fs-5 pt-3 pt-md-0" style="max-width: 430px">
+                  “Our dedicated patient engagement app and
+                  web portal allow you to access information instantaneously (no tedeous form, long calls,
+                  or administrative hassle) and securely”
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <h2 class="section-title fs-2 fw-bold d-block d-sm-flex flex-column align-items-center">What our customer are saying</h2>
+            <div class="d-md-flex d-blockx align-items-center justify-content-between gap-5">
+              <div class="d-flex gap-4 align-items-center">
+                <img src="assets/img/edward.png" alt="Edward Newgate">
+                <div>
+                  <h4 class="fw-bold">Edward Newgate</h4>
+                  <p>Founder Circle</p>
+                </div>
+              </div>
+
+              <div>
+                <p class="fs-5 pt-3 pt-md-0" style="max-width: 430px">
+                  “Our dedicated patient engagement app and
+                  web portal allow you to access information instantaneously (no tedeous form, long calls,
+                  or administrative hassle) and securely”
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="articles" class="py-5">
+      <h2 class="section-title fs-2 fw-bold pt-5 d-flex flex-column align-items-center">Check out our latest article</h2>
+    </section>
   </main>
 
   <script src="bootstrap.min.js"></script>
